@@ -1,0 +1,92 @@
+.preview {
+	background-image: url(../img/bc.jpg);
+	background-attachment: scroll;
+	padding: 10em 0;
+	margin: 0;
+}
+
+.preview hr {
+	background-color: white;
+}
+
+.preview > p {
+	width: 75%;
+	font-size: 1.25em;
+	margin: 0 auto;
+	color: white;
+	font-style: italic;
+}
+
+.gallery .gallery-items .gallery-item {
+	width: 31%;
+}
+
+.price .wrapper,
+.contacts .wrapper {
+	width: 75%;
+}
+
+.price .price-items,
+.contacts .contacts-items {
+	margin-top: 2.5em;
+	box-shadow: 10px 10px 25px #c3c3c3;
+	padding: 2.5em;
+	border-radius: .5em;
+	background-color: white;
+}
+
+.price .price-items .price-item,
+.contacts .contacts-items .contacts-item {
+	border-bottom: 3px dotted #ff4b1e;
+	justify-content: space-between;
+	font-size: 1.5em;
+	margin: 1em 0;
+}
+
+.price .price-items .price-item span {
+	font-size: .75em !important;
+}
+
+.price .price-items a.btn {
+	margin-top: 2.5em;
+}
+
+.testimotials .testimotials-items {
+	background-color: rgba(255, 255, 255, .5);
+	border-radius: .5em;
+	padding: 1em;
+	margin-top: 2.5em;
+}
+
+.testimotials .testimotials-items .testimotials-item {
+	text-align: left;
+	margin: 1em;
+}
+
+.testimotials .testimotials-items .testimotials-item h3,
+.testimotials .testimotials-items .testimotials-item p {
+	color: #3c3c3c;
+}
+
+.clients {
+	background-color: white;
+}
+
+.clients .clients-items {
+	margin-top: 2.5em;
+}
+
+.clients .clients-items .clients-item {
+	margin: 0 3.5em;
+}
+
+.contacts .contacts-items .contacts-item {
+	padding: 1em;
+}
+
+.contacts .contacts-items .contacts-item a {
+	display: block;
+	color: #ff4b1e;
+	margin-top: .5em;
+	font-size: 1em;
+}

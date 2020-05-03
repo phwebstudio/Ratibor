@@ -1,0 +1,121 @@
+@media screen and (max-width: 1024px) {
+	header a.number {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	h2 {
+		width: 50%;
+	}
+
+	header .logo {
+		display: block;
+	}
+
+	header .main-menu a.menu-trigger {
+		display: block;
+		top: .3em;
+		font-size: 2.5em;
+		color: white !important;
+		padding: 0 .25em;
+		margin-right: .5em;
+	}
+	
+	header .main-menu ul {
+		display: none;
+		position: fixed;
+		top: 12em;
+		z-index: 40;
+		right: 0;
+		width: 100%;
+		background-color: white;
+	}
+
+	header .main-menu ul li {
+		display: block;
+		text-align: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	header .main-menu ul li a {
+		color: #ff4b1e;
+	}
+
+	header .main-menu ul li a:active {
+		color: white !important;
+		background-color: #ff4b1e !important;
+	}
+	
+	header .main-menu ul li:hover {
+		background-color: #ff4b1e;
+	}
+
+	header .main-menu ul li:hover > a {
+		color: white;
+	}
+
+	header .main-menu ul a,
+	header .main-menu ul a:hover {
+		padding: 1em;
+		display: block;
+		border: none;
+	}
+
+	.price .price-items .price-item span {
+		font-size: .6em !important;
+	}
+}
+
+@media screen and (max-width: 885px) {
+	a.btn {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 655px) {
+	.items {
+		display: grid;
+		grid-template-columns: auto;
+		margin-top: 1.5em;
+	}
+
+	.item {
+		margin: 1em 0;
+		width: 100% !important;
+	}
+
+	.price .price-items {
+		margin: 2.5em auto 0 auto;
+		display: block;
+	}
+
+	.price .price-items .price-item {
+		display: block;
+		text-align: center;
+	}
+
+	.price .price-items .price-item span {
+		display: block;
+	}
+
+	.gallery .gallery-items,
+	.clients .clients-items {
+		margin: 0;
+	}
+
+	.clients .clients-items .clients-item {
+		margin: .5em 0;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	h2 {
+		width: 75%;
+	}
+
+	.contacts .contacts-items .contacts-item {
+		padding: 0;
+	}
+}
